@@ -72,5 +72,12 @@
                 color: $logo-green;
             }
         }
+
+        .clear:hover,
+        .clear:focus {
+            i {
+                color: $logo-red;
+            }
+        }
     }
 }
