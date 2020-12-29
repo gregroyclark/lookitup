@@ -27,3 +27,10 @@ $font-stack: "Roboto", Arial, sans-serif;
 	@extend %flex;
 	justify-content: center;
 }
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
