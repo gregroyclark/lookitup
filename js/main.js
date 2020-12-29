@@ -7,7 +7,7 @@ document.addEventListener("readystatechange", (event) => {
 });
 
 const initApp = () => {
-    // set the focus
+    setSearchFocus();
 
     // 3 listeners
 
@@ -20,5 +20,5 @@ const submitTheSearch = (event) => {
     event.preventDefault();
     // delete search results
     // process the search
-    // set the focus
+    setSearchFocus();
 }
