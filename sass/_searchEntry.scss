@@ -79,5 +79,11 @@
                 color: $logo-red;
             }
         }
+
+        .searchButton {
+            @include mq(768px) {
+                padding-left: 1rem;
+            }
+        }
     }
 }
