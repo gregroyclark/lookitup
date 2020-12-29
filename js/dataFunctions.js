@@ -8,3 +8,7 @@ export const getSearchTerm = () => {
 export const retrieveSearchResults = async (searchTerm) => {
     const wikiSearchString = getWikiSearchString(searchTerm);
 }
+
+export const getWikiSearchString = (searchTerm) => {
+    const maxChars = getMaxChars();
+}
