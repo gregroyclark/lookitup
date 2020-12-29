@@ -14,7 +14,7 @@
   A JavaScript search engine that consumes the Wikipedia API. Styled with Sass.
   <hr>
   <div id="install"><h2>Try it</h2> </div>
-  <p>visit https://gregroyclark.github.io/lookitup/</p>
+  <p>visit <a href="https://gregroyclark.github.io/lookitup/" target="_blank">https://gregroyclark.github.io/lookitup/</p>
   <hr>
   <div id="tech"><h2>Technology</h2></div>           
   <p>Semantic HTML, Sass, JavaScript</p>
@@ -27,4 +27,4 @@
   <hr>
   <div id="contr"><h2>Contributors</h2> </div>
 
-  <h4>Github:<h4> <a href= "https://github.com/gregroyclark/">https://github.com/gregroyclark/</a>
+  <h4>Github:<h4> <a href= "https://github.com/gregroyclark/" target="_blank">https://github.com/gregroyclark/</a>
