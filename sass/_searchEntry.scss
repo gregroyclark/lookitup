@@ -85,5 +85,15 @@
                 padding-left: 1rem;
             }
         }
+
+        .clear {
+            justify-content: center;
+            align-items: center;
+            color: $stats-color;
+            border-right: thin solid $clear-button-color;
+            @include mq(768px) {
+                padding: 0 1rem;
+            }
+        }
     }
 }
