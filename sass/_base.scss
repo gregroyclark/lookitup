@@ -42,3 +42,8 @@ html, body {
 	font-family: $font-stack;
 	font-size: 22px;
 }
+
+main {
+	@include flexColumn;
+	min-height: calc(100vh - 60px);
+}
