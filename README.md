@@ -1,4 +1,4 @@
-<h1 align= "center">LookItUp!</h1> 
+<h1 align="center">LookItUp!</h1> 
   <h2>Table of Contents<h2>
   <ul>
   <li><a href="#descrip">Description</a></li>  
@@ -19,7 +19,7 @@
   <p>Semantic HTML, Sass, JavaScript</p>
   <hr>
   <div id="license"><h2>License</h2></div>
-  <p><img align="left" src= ></p><br>
+  <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"></p><br>
   <hr>
   <div id="screen"><h2>Screenshots</h2></div>
   <p><img src= ></p>
