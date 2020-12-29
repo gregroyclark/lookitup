@@ -22,3 +22,8 @@ $font-stack: "Roboto", Arial, sans-serif;
 	flex-direction: column;
 	justify-content: flex-start;
 }
+
+@mixin flexCenter {
+	@extend %flex;
+	justify-content: center;
+}
