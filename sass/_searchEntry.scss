@@ -26,5 +26,18 @@
         @include mq(1025px) {
             width: 60vw;
         }
+
+        input[type="text"] {
+            flex-grow: 1;
+            font-size: 0.75rem;
+            text-align: left;
+            letter-spacing: 0.1rem;
+            border: 0;
+            outline: none;
+            min-width: 150px;
+            @include mw(768px) {
+                font-size: 1.25rem;
+            }
+        }
     }
 }
