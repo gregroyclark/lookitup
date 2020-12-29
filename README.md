@@ -2,7 +2,7 @@
   <h2>Table of Contents<h2>
   <ul>
   <li><a href="#descrip">Description</a></li>  
-  <li><a href="#install">Installation</a></li> 
+  <li><a href="#install">Try it!</a></li> 
   <li><a href="#tech">Technology</a></li> 
   <li><a href="#use">Usage</a></li> 
   <li><a href="#license">License</a></li>
@@ -13,7 +13,7 @@
   <div id="descrip"><h2>Description</h2> </div>
   A JavaScript search engine that consumes the Wikipedia API. Styled with Sass.
   <hr>
-  <div id="install"><h2>Try it</h2> </div>
+  <div id="install"><h2>Try it!</h2> </div>
   <p>visit <a href="https://gregroyclark.github.io/lookitup/" target="_blank">https://gregroyclark.github.io/lookitup/</a></p>
   <hr>
   <div id="tech"><h2>Technology</h2></div>           
