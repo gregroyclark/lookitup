@@ -12,3 +12,11 @@ const initApp = () => {
     const form = document.getElementById("searchBar");
     form.addEventListener("submit", submitTheSearch);
 }
+
+
+const submitTheSearch = (event) => {
+    event.preventDefault();
+    // delete search results
+    // process the search
+    // set the focus
+}
