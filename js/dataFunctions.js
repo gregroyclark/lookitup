@@ -11,6 +11,18 @@ export const retrieveSearchResults = async (searchTerm) => {
 
 export const getWikiSearchString = (searchTerm) => {
     const maxChars = getMaxChars();
+    const rawSearchString = `https://en.wikipedia.org/w/api.php
+    ?action=query
+    &generator=search
+			&gsrsearch=${searchterm}
+			&gsrlimit=20
+    &prop=pageimages|extracts
+			&exchars=${maxChars}
+			&exintro
+			&explaintext
+			&exlimit=max
+    &format=json
+    &origin=*`;
 }
 
 const getMaxChars = () => {
