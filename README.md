@@ -13,14 +13,11 @@
   <div id="descrip"><h2>Description</h2> </div>
   A JavaScript search engine that consumes the Wikipedia API. Styled with Sass.
   <hr>
-  <div id="install"><h2>Installation</h2> </div>
+  <div id="install"><h2>Try it</h2> </div>
   <p>visit https://gregroyclark.github.io/lookitup/</p>
   <hr>
   <div id="tech"><h2>Technology</h2></div>           
   <p>Semantic HTML, Sass, JavaScript</p>
-  <hr>
-  <div id="use"><h2>Usage</h2></div>
-  <p>Reference information</p>  
   <hr>
   <div id="license"><h2>License</h2></div>
   <p><img align="left" src= ></p><br>
