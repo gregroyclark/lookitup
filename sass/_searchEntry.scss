@@ -56,5 +56,14 @@
                 }
             }
         }
+
+        .button:hover,
+        .button:focus {
+            i {
+                padding-bottom: 0.5rem;
+                border-bottom-width: 1px;
+                border-bottom-style: solid;
+            }
+        }
     }
 }
