@@ -4,3 +4,7 @@ export const getSearchTerm = () => {
     const searchTerm = rawSearchTerm.replaceAll(regex, " ");
     return searchTerm;
 }
+
+export const retrieveSearchResults = async (searchTerm) => {
+    const wikiSearchString = getWikiSearchString(searchTerm);
+}
