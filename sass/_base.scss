@@ -12,3 +12,7 @@ $link-visited-color: #609;
 $link-outline-color: #000;
 $font-stack: "Roboto", Arial, sans-serif;
 
+%flex {
+	display: flex;
+	align-items: center;
+}
