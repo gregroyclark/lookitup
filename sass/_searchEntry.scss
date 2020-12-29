@@ -22,5 +22,9 @@
         @include mq(768px) {
             width:80vw;
             padding: 1.25rem 1.5rem;
+        }
+        @include mq(1025px) {
+            width: 60vw;
+        }
     }
 }
