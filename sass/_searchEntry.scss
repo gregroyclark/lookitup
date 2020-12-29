@@ -1,4 +1,15 @@
 .searchEntry {
     @include flexColumn;
     padding-top: 40px;
+
+    .logo {
+        letter-spacing: -5px;
+        font-size: 2rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+        @include mq(768px) {
+            font-size: 4rem;
+            letter-spacing: -10px;
+        }
+    }
 }
