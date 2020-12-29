@@ -4,7 +4,6 @@
   <li><a href="#descrip">Description</a></li>  
   <li><a href="#install">Try it!</a></li> 
   <li><a href="#tech">Technology</a></li> 
-  <li><a href="#use">Usage</a></li> 
   <li><a href="#license">License</a></li>
   <li><a href="#screen">Screenshots</a></li> 
   <li><a href="#contr">Contributors</a></li>
