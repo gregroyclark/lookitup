@@ -65,5 +65,12 @@
                 border-bottom-style: solid;
             }
         }
+
+        .searchButton:hover,
+        .searchButton:focus {
+            i {
+                color: $logo-green;
+            }
+        }
     }
 }
