@@ -22,4 +22,9 @@ const createResultItem = (result) => {
     resultTitle.classList.add("resultTitle");
     const link = document.createElement("a");
     link.href = `https://en.wikipedia.org/?curid=${result.id}`;
+    link.textContent = result.title;
+    link.target = "_blank";
+    resultTitle.append(link);
+    resultItem.append(resultTitle);
+    return resultItem;
 }
