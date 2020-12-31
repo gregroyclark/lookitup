@@ -36,3 +36,13 @@ const getMaxChars = () => {
     if (width >= 1400) maxChars = 130;
     return maxChars
 }
+
+const requestData = async (searchString) => {
+    try {
+        const response = await fetch(searchString);
+        const data = await response.json();
+        return data;
+    } catch (err) {
+        console.err(err);
+    }
+}
