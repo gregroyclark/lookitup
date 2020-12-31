@@ -14,3 +14,12 @@ export const buildSearchResults = (resultArray) => {
         searchResults.append(resultItem);
     });
 }
+
+const createResultItem = (result) => {
+    const resultItem = document.createElement("div");
+    resultItem.classList.add("resultItem");
+    const resultTitle = document.createElement("div");
+    resultTitle.classList.add("resultTitle");
+    const link = document.createElement("a");
+    link.href = `https://en.wikipedia.org/?curid=${result.id}`;
+}
