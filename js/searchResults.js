@@ -52,3 +52,12 @@ const createResultText = (result) => {
 export const clearStatsLine = () => {
     document.getElementById("stats").textContent = "";
 }
+
+export const setStatsLine = (numberOfResults) => {
+    const statsLine = document.getElementById("stats");
+    if (numberOfResults) {
+        statsLine.textContent = `Displaying ${numberOfResults} results.`;
+    } else {
+        statsLine.textContent = "Sorry, no results.";
+    }
+}
