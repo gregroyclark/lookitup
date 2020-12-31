@@ -1,6 +1,7 @@
 import { setSearchFocus } from "./searchBar";
 import { getSearchTerm } from "./dataFunctions";
 import { retrieveSearchResults } from "./dataFunctions";
+import { buildSearchResults } from "./searchResults"
 
 document.addEventListener("readystatechange", (event) => {
     if (event.target.readyState === "complete") {
@@ -11,7 +12,7 @@ document.addEventListener("readystatechange", (event) => {
 const initApp = () => {
     setSearchFocus();
 
-    // 3 listeners
+    // TODO 3 listeners
 
     const form = document.getElementById("searchBar");
     form.addEventListener("submit", submitTheSearch);
@@ -20,7 +21,7 @@ const initApp = () => {
 
 const submitTheSearch = (event) => {
     event.preventDefault();
-    // delete search results
+    // TODO delete search results
     processTheSearch();
     setSearchFocus();
 }
@@ -30,4 +31,6 @@ const processTheSearch = async () => {
     const searchTerm = getSearchTerm();
     if (searchTerm === "") return;
     const resultArray = await retrieveSearchResults(searchTerm);
+    if (resultArray.length) buildSearchResults(resultArray);
+    //set stats line
 }
