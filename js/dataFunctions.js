@@ -7,6 +7,7 @@ export const getSearchTerm = () => {
 
 export const retrieveSearchResults = async (searchTerm) => {
     const wikiSearchString = getWikiSearchString(searchTerm);
+    const wikiSearchResults = await requestData(wikiSearchString);
 }
 
 export const getWikiSearchString = (searchTerm) => {
