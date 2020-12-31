@@ -1,5 +1,6 @@
 import { setSearchFocus } from "./searchBar";
 import { getSearchTerm } from "./dataFunctions";
+import { retrieveSearchResults } from "./dataFunctions";
 
 document.addEventListener("readystatechange", (event) => {
     if (event.target.readyState === "complete") {
