@@ -1,7 +1,12 @@
 import { setSearchFocus, showClearTextButton } from "./searchBar";
 import { getSearchTerm } from "./dataFunctions";
 import { retrieveSearchResults } from "./dataFunctions";
-import { deleteSearchResults, buildSearchResults, clearStatsLine, setStatsLine } from "./searchResults"
+import { 
+    deleteSearchResults, 
+    buildSearchResults, 
+    clearStatsLine, 
+    setStatsLine 
+} from "./searchResults"
 
 document.addEventListener("readystatechange", (event) => {
     if (event.target.readyState === "complete") {
