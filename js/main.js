@@ -1,4 +1,6 @@
-import { clearSearchText, setSearchFocus, showClearTextButton, clearPushListener } from "./searchBar";
+import { 
+    clearSearchText, setSearchFocus, showClearTextButton, clearPushListener 
+} from "./searchBar";
 import { getSearchTerm } from "./dataFunctions";
 import { retrieveSearchResults } from "./dataFunctions";
 import { 
@@ -19,7 +21,7 @@ const initApp = () => {
 
     const search = document.getElementById("search");
     search.addEventListener("input", showClearTextButton);
-    
+
     const clear = document.getElementById("clear");
     clear.addEventListener("click", clearSearchText);
     clear.addEventListener("keydown", clearPushListener);
