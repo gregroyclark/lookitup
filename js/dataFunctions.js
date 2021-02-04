@@ -29,7 +29,7 @@ export const getWikiSearchString = (searchTerm) => {
 			&exlimit=max
     &format=json
 		&origin=*`;
-		const searchString = encodedURI(rawSearchString);
+		const searchString = encodeURI(rawSearchString);
 		return searchString;
 }
 
