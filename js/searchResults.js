@@ -18,7 +18,7 @@ export const buildSearchResults = (resultArray) => {
         }
         const resultText = createResultText(result);
         resultContents.append(resultText);
-        resultItem.appent(resultContents);
+        resultItem.append(resultContents);
         const searchResults = document.getElementById("searchResults");
         searchResults.append(resultItem);
     });
