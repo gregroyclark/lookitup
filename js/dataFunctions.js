@@ -48,7 +48,7 @@ const requestData = async (searchString) => {
         const data = await response.json();
         return data;
     } catch (err) {
-        console.err(err);
+        console.error(err);
     }
 }
 
