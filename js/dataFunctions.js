@@ -20,7 +20,7 @@ export const getWikiSearchString = (searchTerm) => {
     const rawSearchString = `https://en.wikipedia.org/w/api.php
     ?action=query
     &generator=search
-			&gsrsearch=${searchterm}
+			&gsrsearch=${searchTerm}
 			&gsrlimit=20
     &prop=pageimages|extracts
 			&exchars=${maxChars}
