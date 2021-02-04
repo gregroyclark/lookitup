@@ -1,13 +1,13 @@
 import { 
     clearSearchText, setSearchFocus, showClearTextButton, clearPushListener 
-} from "./searchBar";
-import { getSearchTerm, retrieveSearchResults } from "./dataFunctions";
+} from "./searchBar.js";
+import { getSearchTerm, retrieveSearchResults } from "./dataFunctions.js";
 import { 
     deleteSearchResults, 
     buildSearchResults, 
     clearStatsLine, 
     setStatsLine 
-} from "./searchResults"
+} from "./searchResults.js"
 
 document.addEventListener("readystatechange", (event) => {
     if (event.target.readyState === "complete") {
