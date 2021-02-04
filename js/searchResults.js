@@ -8,7 +8,7 @@ export const deleteSearchResults = () => {
 }
 
 export const buildSearchResults = (resultArray) => {
-    resultArray.array.forEach(result => {
+    resultArray.forEach(result => {
         const resultItem = createResultItem(result);
         const resultContents = document.createElement("div");
         resultContents.classList.add("resultContents");
