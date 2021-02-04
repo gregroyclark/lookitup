@@ -1,8 +1,7 @@
 import { 
     clearSearchText, setSearchFocus, showClearTextButton, clearPushListener 
 } from "./searchBar";
-import { getSearchTerm } from "./dataFunctions";
-import { retrieveSearchResults } from "./dataFunctions";
+import { getSearchTerm, retrieveSearchResults } from "./dataFunctions";
 import { 
     deleteSearchResults, 
     buildSearchResults, 
