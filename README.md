@@ -49,6 +49,9 @@
   <hr>
   
   <div id="contr"><h2>Contributors</h2></div>
-  <h4>Github:<h4><a href="https://github.com/gregroyclark/" target="_blank">
-    https://github.com/gregroyclark/
-  </a>
+  <p>
+    Github:
+      <a href="https://github.com/gregroyclark/" target="_blank">
+        https://github.com/gregroyclark/
+      </a>
+  </p>
