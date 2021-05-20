@@ -1,15 +1,27 @@
 <h1 align="center">LookItUp!</h1> 
   <h2>Table of Contents<h2>
   <ul>
-  <li><a href="#description">Description</a></li>
-  <li><a href="#demo">Demo</a></li>
-  <li><a href="#install">Try it!</a></li> 
-  <li><a href="#tech">Technology</a></li> 
-  <li><a href="#license">License</a></li>
-  <li><a href="#contr">Contributors</a></li>
+    <li>
+      <a href="#description">Description</a>
+    </li>
+    <li>
+      <a href="#demo">Demo</a>
+    </li>
+    <li>
+      <a href="#install">Try it!</a>
+    </li> 
+    <li>
+      <a href="#tech">Technology</a>
+    </li> 
+    <li>
+      <a href="#license">License</a>
+    </li>
+    <li>
+      <a href="#contr">Contributors</a>
+    </li>
   </ul>
     <hr>
-  <div id="description"><h2>Description</h2> </div>
+  <div id="description"><h2>Description</h2></div>
   A JavaScript search engine that consumes the Wikipedia API. Styled with Sass.
   <hr>
   <div id="demo"><h2>Demo</h2></div>
@@ -24,6 +36,6 @@
   <div id="license"><h2>License</h2></div>
   <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"></p><br>
   <hr>
-  <div id="contr"><h2>Contributors</h2> </div>
+  <div id="contr"><h2>Contributors</h2></div>
 
   <h4>Github:<h4> <a href="https://github.com/gregroyclark/" target="_blank">https://github.com/gregroyclark/</a>
