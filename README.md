@@ -12,6 +12,9 @@
   <div id="descrip"><h2>Description</h2> </div>
   A JavaScript search engine that consumes the Wikipedia API. Styled with Sass.
   <hr>
+  <div id="screen"><h2>Screenshots</h2></div>
+  <p><img src="assets/look-it-up.gif"></p>
+  <hr>
   <div id="install"><h2>Try it!</h2> </div>
   <p>visit <a href="https://gregroyclark.github.io/lookitup/" target="_blank">https://gregroyclark.github.io/lookitup/</a></p>
   <hr>
@@ -20,9 +23,6 @@
   <hr>
   <div id="license"><h2>License</h2></div>
   <p><img align="left" src="https://img.shields.io/badge/License-MIT-blue"></p><br>
-  <hr>
-  <div id="screen"><h2>Screenshots</h2></div>
-  <p><img src="assets/look-it-up.gif"></p>
   <hr>
   <div id="contr"><h2>Contributors</h2> </div>
 
